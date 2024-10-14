@@ -26,7 +26,7 @@ export default function LoginPage() {
         registeredUsers.password === user.password
       ) {
         dispatch(isLogedIn());
-        navigate("/");
+        navigate("/redux_todoApp");
       } else {
       }
     });

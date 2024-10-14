@@ -9,7 +9,6 @@ import LoginPage from "./components/LoginPage/LoginPage";
 import { useNavigate } from "react-router-dom";
 
 function App() {
-  
   const userLogedIn = useSelector((state) => state.isLogedIn);
   const dispatch = useDispatch();
 
@@ -20,7 +19,7 @@ function App() {
   const navigate = useNavigate();
 
   const goToLogin = () => {
-    navigate("/login");
+    navigate("/redux_todoApp/login");
   };
 
   if (userLogedIn === false) {

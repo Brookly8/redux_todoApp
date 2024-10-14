@@ -12,25 +12,25 @@ import PendingTodos from "./components/PendingTodos/PendingTodos.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/redux_todoApp",
     element: <App />,
     children: [
       {
-        path: "todoList",
+        path: "/redux_todoApp/todoList",
         element: <ToDoList />,
       },
       {
-        path: "completedTodos",
+        path: "/redux_todoApp/completedTodos",
         element: <CompletedTodos />,
       },
       {
-        path: "pendingTodos",
+        path: "/redux_todoApp/pendingTodos",
         element: <PendingTodos />,
       },
     ],
   },
   {
-    path: "login",
+    path: "/redux_todoApp/login",
     element: <LoginPage />,
   },
 ]);

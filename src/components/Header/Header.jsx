@@ -9,18 +9,18 @@ export default function Header() {
   const dispatch = useDispatch();
   const onClick = () => {
     dispatch(isLogedIn());
-    navigate("/login");
+    navigate("/redux_todoApp/login");
   };
   return (
     <header>
       <ul>
         <div className="divLeft">
-          <NavLink to="/todoList">All ToDos</NavLink>
-          <NavLink to="/completedTodos">Compleated ToDos</NavLink>
-          <NavLink to="/pendingTodos">Pending ToDos</NavLink>
+          <NavLink to="/redux_todoApp/todoList">All ToDos</NavLink>
+          <NavLink to="/redux_todoApp/completedTodos">Compleated ToDos</NavLink>
+          <NavLink to="/redux_todoApp/pendingTodos">Pending ToDos</NavLink>
         </div>
         <div className="divRight">
-          <NavLink onClick={onClick} to="/login">
+          <NavLink onClick={onClick} to="/redux_todoApp/login">
             Log out
           </NavLink>
         </div>

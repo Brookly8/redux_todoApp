@@ -1,0 +1,33 @@
+.todoCard{
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: start;
+}
+
+.deleteBtn{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.deleteBtn button{
+    width: 100px;
+    height: 35px;
+    background-color: #778798;
+    border-radius: 8px;
+    border: 0px;
+    color: white;
+}
+.deleteBtn button:hover{
+    cursor: pointer;
+    background-color: #a6b0ba;
+}
+
+input:hover{
+    cursor: pointer;
+}

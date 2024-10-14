@@ -1,0 +1,37 @@
+.loginMainDiv {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginDiv {
+  width: 40%;
+  height: 40%;
+  background-color: #778798;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  gap: 40px;
+  border-radius: 8px;
+}
+
+.loginDiv input {
+  width: 45%;
+  height: 25px;
+}
+
+.loginDiv button {
+  width: 20%;
+  height: 30px;
+  background-color: #ef8080;
+  border-radius: 6px;
+  border: 0px;
+}
+
+.loginDiv button:hover{
+    background-color: #eba1a1;
+    cursor: pointer;
+}

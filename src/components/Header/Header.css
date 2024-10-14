@@ -1,0 +1,24 @@
+header {
+  width: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightcoral;
+  height: 70px;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.divLeft{
+    display: flex;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: lightslategray;
+    padding: 10px 25px 10px 25px;
+    border-radius: 8px;
+    color: white;
+}

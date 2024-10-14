@@ -1,0 +1,26 @@
+.createTodoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
+  width: 70%;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.createTodoDiv form {
+  display: flex;
+  gap: 70px;
+  width: 100%;
+  justify-content: center;
+}
+
+.createTodo {
+  width: 15%;
+  height: 46%;
+}
+
+.inputAddTodo{
+    width: 50%;
+  height: 40%;
+}
